@@ -1,0 +1,35 @@
+{
+  "name": "tjs-task-styles",
+  "version": "1.0.0",
+  "description": "A Gelf task module to build styles with Sass.",
+  "author": {
+    "name": "Matthew Lawrence-Stubley",
+    "email": "quakematt@outlook.com"
+  },
+  "contributors": [],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mt-labs/tjs-task-styles"
+  },
+  "bugs": {
+    "url": "https://github.com/mt-labs/tjs-task-styles/issues"
+  },
+  "keywords": [
+    "gulp",
+    "tjs"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-util": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.0",
+    "tjs-gelf": "https://github.com/mt-labs/tjs-gelf/archive/2.2.0.tar.gz"
+  }
+}
